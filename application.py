@@ -76,7 +76,7 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0",port=8000)
 
     # app.run(host="0.0.0.0",port=8000) server runs on local host for port 8000
     #  app.run() for run on bydefault port which is 5000, Running on http://127.0.0.1:5000/ 
